@@ -1,0 +1,28 @@
+
+table {
+ background-color: white;
+  backdrop-filter: blur(5px);
+  width: calc(100% - 20px);
+  max-width: 600px;
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #04AA6D;
+}
+
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

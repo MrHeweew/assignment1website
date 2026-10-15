@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background2.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#abda {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+
+#abda li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#abda li {
+  display: flex;
+}
+
+#abda .logo a {
+  padding: 6px 16px;
+}
+
+#abda .logo img {
+  display: block;
+  height: 46px;
+  width: auto;
+}
+
+#abda li a:hover {
+  background-color: #04AA6D;
+}
+
+.responsive-form,
+.about,
+.home,
+.thank-you-section {
+  max-width: 600px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #04AA6D;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #abda li a {
+    padding: 12px;
+  }
+
+  #abda .logo a {
+    padding: 6px 12px;
+  }
+
+  #abda .logo img {
+    height: 36px;
+  }
+}

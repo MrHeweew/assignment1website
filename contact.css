@@ -1,0 +1,81 @@
+.responsive-form{
+  background-color: rgba(255, 255, 255, 0.184);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email] {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #ccccccc1;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #cccabb7f;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+  border: 2px solid #e0dde4c6;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #cccabb7f;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #038a58;
+}
+
+.thank-you-section {
+  width: 100%;
+  max-width: none;
+  background-color: rgba(255, 255, 255, 0.158);
+  border: 2px solid #04aa6d3f;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.thank-you-section img {
+  width: 75%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.thank-you-section h2,
+.thank-you-section p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.button:hover {
+  background-color: #038a58;
+}
